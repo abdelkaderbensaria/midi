@@ -1,2 +1,2 @@
 FROM jboss/wildfly
-COPY target/angularjavaservermidi.war /opt/jboss/wildfly/standalone/deployments/
+COPY target/angular-java-server-midi.war /opt/jboss/wildfly/standalone/deployments/
