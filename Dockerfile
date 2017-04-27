@@ -1,2 +1,2 @@
-FROM jboss/wildfly
-COPY target/angular-java-server-midi.war /opt/jboss/wildfly/standalone/deployments/
+FROM jetty
+COPY target/angular-java-server-midi.war /var/lib/jetty/webapps/ROOT.war
