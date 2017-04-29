@@ -26,4 +26,4 @@ CMD ["sh", "-c", "exec java \
 ${JAVA_OPTIONS} \
 -jar /usr/local/jetty/start.jar"]
 
-COPY target/angular-java-server-midi.war /var/lib/jetty/webapps/ROOT.war
+
